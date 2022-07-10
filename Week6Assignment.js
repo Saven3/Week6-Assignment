@@ -94,5 +94,5 @@ function play_war(arr, array)
 
 let deck = (shuffle(Deck()));
 let theShogunate = player(deck);
-let player_2 = player(deck);
-play_war(theShogunate, player_2);
+let theJarl = player(deck);
+play_war(theShogunate, theJarl);
