@@ -1,5 +1,8 @@
 const expect = chai.expect;
 
-describe('should play out the turns' function(){
-    
-})
+describe('war' function(){
+    it('should play the players turns' function(){
+        const gameWar = new Player('shogunDude', 'jarlMan');
+        expect(gameWar.arr).to.equal('Players take turns');
+    });
+});
